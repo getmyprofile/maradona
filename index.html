@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tribute Page</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: white;
+            color: black;
+        }
+
+        #main {
+            margin: 20px;
+            padding: 10px;
+            font-family: serif;
+            background: repeating-linear-gradient(90deg,
+                    white 0px,
+                    white 50px,
+                    skyblue 50px,
+                    skyblue 100px);
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        #main-header {
+            display: block;
+            padding-bottom: 1px;
+            background-color: white;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        #title {
+            margin-bottom: 0px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+        }
+
+        #img-div {
+            background-color: white;
+            display: inline-block;
+            margin-left: 20%;
+            margin-right: 20%;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        #image {
+            max-width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        #img-caption {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: justify;
+            font-size: 20px;
+        }
+
+        #tribute-info {
+            margin: auto;
+            padding: 5px;
+            max-width: 65%;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        #sub-header {
+            margin-top: 0px;
+            padding-left: 100px;
+            text-align: center;
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #foot-header {
+            text-align: center;
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #header {
+            margin-top: 30px;
+            margin-left: 25px;
+            margin-bottom: 30px;
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+        }
+
+        li {
+            text-align: left;
+            line-height: 1.1cm;
+        }
+
+        #quotes {
+            margin: auto;
+            padding: 15px;
+            max-width: 65%;
+            text-align: justify;
+            font-family: 'Crimson Text', serif;
+            font-size: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+    </style>
+
+</head>
+
+<body>
+    <main id='main'>
+        <header id='main-header'>
+            <h1 id="title">Diego Maradona</h1>
+            <h3 id='sub-header'>The Man, the Myth</h3>
+        </header>
+        <figure>
+            <div id='img-div'>
+                <img id='image' alt="Maradona with world cup"
+                    src="https://news.harvard.edu/wp-content/uploads/2020/12/ap_20332381628768_2500-768x512.jpg" />
+                <figcaption id="img-caption">
+                    On beating England in the 1986 World Cup...<br />
+                    "It was as if we had beaten a country, more than just a football team." - Maradona
+                </figcaption>
+            </div>
+        </figure>
+        <section id="tribute-info">
+            <ul>
+                <h3 id="header">Here's a time line of Maradona's life:</h3>
+                <li>
+                    <strong>1960</strong> Maradona was born in Lanus, Buenos Aires Province
+                </li>
+                <li>
+                    <strong>1971</strong> Scouted age 11 for the junior team of Argentinos Juniors
+                </li>
+                <li>
+                    <strong>1976</strong> Makes his professional debut aged 15
+                </li>
+                <li>
+                    <strong>1977</strong> Makes his full international debut for Argentina aged just 16
+                </li>
+                <li>
+                    <strong>1979</strong> Scores first international goal and wins the junior World Cup
+                </li>
+                <li>
+                    <strong>1981</strong> Transfers to Boca Juniors for $1.96m.
+                </li>
+                <li>
+                    <strong>1982</strong> Plays his first World Cup for Argentina, scoring twice, but also getting sent
+                    off.
+                    Afterwards he is transferred to Barcelona FC for a then world record $9.81m.
+                </li>
+                <li>
+                    <strong>1983</strong> Wins the Spanish Cup with Barcelona
+                </li>
+                <li>
+                    <strong>1984</strong> Transfers from Barcelona to Serie A Napoli for another record fee of $13.54m.
+                </li>
+                <li>
+                    <strong>1986</strong> Captains Argentina to World Cup Victory, scoring two goals against England on
+                    the way, the
+                    first, the infamous "Hand of God" and the second an incredible 50 meter run voted "Goal of the
+                    Century" in a 2002 FIFA poll.
+                </li>
+                <li>
+                    <strong>1987</strong> Helps Napoli to their first Italian title
+                </li>
+                <li>
+                    <strong>1990</strong> Hit by paternity suit after World Cup final defeat by West Germany
+                </li>
+                <li>
+                    <strong>1990</strong> Hit by paternity suit after World Cup final defeat by West Germany
+                </li>
+                <li>
+                    <strong>1991</strong> Fails a drugs test and is banned for 15 months. Leaves Italy in disgrace.
+                </li>
+                <li>
+                    <strong>1992</strong> Makes his comeback at Sevilla in Spain
+                </li>
+                <li>
+                    <strong>1993</strong> Heads back to Argentina with Newell's Old Boys after disagreement with Sevilla
+                </li>
+                <li>
+                    <strong>1994</strong> Sent home after failing drugs test at the World Cup in the U.S.A.
+                </li>
+                <li>
+                    <strong>1996</strong> Books into a clinic for drug addiction.
+                </li>
+                <li>
+                    <strong>1997</strong> Announces retirement from football aged 37 after failing another drugs test
+                </li>
+                <li>
+                    <strong>2000</strong> Collapses with heart problems
+                </li>
+                <li>
+                    <strong>2002</strong> Moves to Cuba to try and combat drug addiction
+                </li>
+                <li>
+                    <strong>2004</strong> Rushed to hospital after another collapse
+                </li>
+                <li>
+                    <strong>2005</strong> Maradona hosts his own talk show, interviewing Pele on the opening night
+                </li>
+                <li>
+                    <strong>2008</strong> Emir Kusturica's documentary "Maradona" is shown at the Cannes Film festival
+                </li>
+                <li>
+                    <strong>2020</strong> Maradona, aged 60, died of a heart attack at his home in Tigre, Buenos Aires,
+                    Argentina.
+                </li>
+            </ul>
+
+        </section>
+        <blockquote>
+            <p id='quotes'>
+                “Even if I played for a million years, I’d never come close to Maradona. Not that I’d want to anyway.
+                He’s the greatest there’s ever been.” — Lionel Messi
+            </p>
+        </blockquote>
+        <footer>
+            <h3 id="foot-header">
+                Want to know more? read more about this legend on his
+                <a id='tribute-link' href="https://en.wikipedia.org/wiki/Diego_Maradona" target="_blank">Wikipedia
+                    entry</a>
+            </h3>
+        </footer>
+    </main>
+</body>
+
+</html>
